@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0483C3401D3A7B0C000614B4 /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0483C33F1D3A7B0C000614B4 /* heros.plist */; };
 		04B87D5E1D3A61DB005AD6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B87D5D1D3A61DB005AD6BF /* main.m */; };
 		04B87D611D3A61DB005AD6BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B87D601D3A61DB005AD6BF /* AppDelegate.m */; };
 		04B87D641D3A61DB005AD6BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B87D631D3A61DB005AD6BF /* ViewController.m */; };
 		04B87D671D3A61DB005AD6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B87D651D3A61DB005AD6BF /* Main.storyboard */; };
 		04B87D691D3A61DB005AD6BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B87D681D3A61DB005AD6BF /* Assets.xcassets */; };
 		04B87D6C1D3A61DB005AD6BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B87D6A1D3A61DB005AD6BF /* LaunchScreen.storyboard */; };
+		04B87D751D3A6253005AD6BF /* WXYCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B87D741D3A6253005AD6BF /* WXYCoverFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0483C33F1D3A7B0C000614B4 /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
 		04B87D591D3A61DB005AD6BF /* Cover_Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cover_Flow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B87D5D1D3A61DB005AD6BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04B87D5F1D3A61DB005AD6BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		04B87D681D3A61DB005AD6BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B87D6B1D3A61DB005AD6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B87D6D1D3A61DB005AD6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B87D731D3A6253005AD6BF /* WXYCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXYCoverFlowLayout.h; sourceTree = "<group>"; };
+		04B87D741D3A6253005AD6BF /* WXYCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXYCoverFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		04B87D5B1D3A61DB005AD6BF /* Cover_Flow */ = {
 			isa = PBXGroup;
 			children = (
+				0483C33F1D3A7B0C000614B4 /* heros.plist */,
 				04B87D5F1D3A61DB005AD6BF /* AppDelegate.h */,
 				04B87D601D3A61DB005AD6BF /* AppDelegate.m */,
 				04B87D621D3A61DB005AD6BF /* ViewController.h */,
@@ -67,6 +73,8 @@
 				04B87D6A1D3A61DB005AD6BF /* LaunchScreen.storyboard */,
 				04B87D6D1D3A61DB005AD6BF /* Info.plist */,
 				04B87D5C1D3A61DB005AD6BF /* Supporting Files */,
+				04B87D731D3A6253005AD6BF /* WXYCoverFlowLayout.h */,
+				04B87D741D3A6253005AD6BF /* WXYCoverFlowLayout.m */,
 			);
 			path = Cover_Flow;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			files = (
 				04B87D6C1D3A61DB005AD6BF /* LaunchScreen.storyboard in Resources */,
 				04B87D691D3A61DB005AD6BF /* Assets.xcassets in Resources */,
+				0483C3401D3A7B0C000614B4 /* heros.plist in Resources */,
 				04B87D671D3A61DB005AD6BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04B87D751D3A6253005AD6BF /* WXYCoverFlowLayout.m in Sources */,
 				04B87D641D3A61DB005AD6BF /* ViewController.m in Sources */,
 				04B87D611D3A61DB005AD6BF /* AppDelegate.m in Sources */,
 				04B87D5E1D3A61DB005AD6BF /* main.m in Sources */,
@@ -300,6 +310,7 @@
 				04B87D721D3A61DB005AD6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
